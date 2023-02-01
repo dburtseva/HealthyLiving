@@ -1,0 +1,89 @@
+body {
+    background-image: url("./peaches.jpg");
+    width: 1440px;
+    height: 500px;
+    background-position: 100%;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.dvd h1 {
+    font-family: 'Perpetua';
+    line-height: 0.8;
+    font-size: 110px;
+    margin-left: 230px;
+    margin-top: 170px;
+}
+
+.dvd p {
+    font-family: 'Perpetua';
+    font-size: 40px;
+    line-height: 0.8;
+    margin-left: 233px;
+    margin-top: -40px; 
+}
+
+.but button {
+    cursor: pointer;
+    margin-left: 233px;
+    background-color: #F6A728;
+    border: #F6A728;
+    font-size: 30px;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-shadow: rgba(0, 0, 0, 50);
+    font-family: 'Perpetua';
+    color: #ffffff;
+}
+
+.but button:hover {
+    background-color: #E17403;
+}
+
+.but2 {
+    cursor: pointer;
+    background-color: #F6A728;
+    height: 80px;
+    width: 200px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.but2:hover{
+    background-color: #E17403;
+}
+
+.but2 img{
+    margin-top: 25px;
+    margin-left: px;
+    width: 30px;
+    height: 30px;
+}
+
+.but2 span{
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: 25px;
+    margin-left: -20px;
+}
+
+ul {
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 27px;
+    margin-left: 196px;
+    margin-top: -53px;
+}
+
+ul li:not(:last-child){
+    margin-right: 30px;
+}
+
+ul li:hover{
+    color:#E17403;
+}
